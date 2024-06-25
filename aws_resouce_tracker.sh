@@ -13,7 +13,7 @@ set +x
 
 #List S3 Buckets
 echo "Print list of S3 Bucket"
-aws s3 ls
+aws s3 ls 
 
 #List EC2 Instances
 echo "Print list of available of EC2 Instance"
