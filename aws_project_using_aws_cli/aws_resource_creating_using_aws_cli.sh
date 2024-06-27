@@ -26,4 +26,4 @@ aws iam create-policy \
 # Attach the Policy to the Role (Replace the PolicyArn with the actual one returned by the previous command)
 aws iam attach-role-policy \
     --role-name Test-Role \
-    --policy-arn arn:aws:iam::730335449419:policy/EC2FullAccessPolicy
+    --policy-arn arn:aws:iam::1238044788494:policy/EC2FullAccessPolicy
